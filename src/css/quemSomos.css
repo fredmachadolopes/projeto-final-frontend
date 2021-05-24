@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap');
+.logo{
+    height: 200px;
+}
+
+
+.titulo{
+    font-family: 'Dancing Script', cursive;
+    font-size: 40px;
+    font-size: 60px;
+}
+
+.principal{
+ width: 100%;
+}
+
+.imagem{
+    width: 100%;
+}
+
+.card{
+    box-shadow: 0 0 10px rgb(14, 13, 13, 0.6);
+}
+
+.foto-cima{
+    object-fit: cover;
+    object-position: 0px -5px;
+}
+
+.texto-baixo{
+    margin-top: 5px;
+}
+
+.tamano-article{
+   max-width: 22rem;
+   
+}
+.alinhamento-footer{
+    text-align: center;
+}
+footer{
+    margin-top: 100px;
+}
+.texto-footer{
+    color: white;
+    font-family: 'Dancing Script', cursive;
+}
+
+@media only screen and  (max-width: 1700px){
+    .tamanho{
+        padding-left: 100px;
+        
+    }
+}
+
+@media only screen and  (max-width: 1000px){
+    .tamanho{
+        padding-left: 50px;
+        
+    }
+}
+
+@media only screen and  (max-width: 1000px){
+    .tamanho{
+        padding-left: 0px;
+       
+    }
+
+
+}
