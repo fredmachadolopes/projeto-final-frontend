@@ -19,7 +19,11 @@ footer{
 .texto-footer{
     color: white;
     font-family: 'Dancing Script', cursive;
-    
+
+}
+
+.logo-footer{
+    height: 120px;
 }
 
 
